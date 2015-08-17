@@ -13,6 +13,8 @@
 		EF023ECF1B81D80900347AF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF023ECE1B81D80900347AF8 /* Images.xcassets */; };
 		EF023ED21B81D80900347AF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF023ED01B81D80900347AF8 /* LaunchScreen.xib */; };
 		EF023EDE1B81D80900347AF8 /* gitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF023EDD1B81D80900347AF8 /* gitDemoTests.m */; };
+		EF023EEA1B81EAF600347AF8 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF023EE81B81EAF600347AF8 /* RootViewController.m */; };
+		EF023EEB1B81EAF600347AF8 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF023EE91B81EAF600347AF8 /* RootViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +39,9 @@
 		EF023ED71B81D80900347AF8 /* gitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF023EDC1B81D80900347AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF023EDD1B81D80900347AF8 /* gitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitDemoTests.m; sourceTree = "<group>"; };
+		EF023EE71B81EAF600347AF8 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		EF023EE81B81EAF600347AF8 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		EF023EE91B81EAF600347AF8 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				EF023EC81B81D80900347AF8 /* AppDelegate.h */,
 				EF023EC91B81D80900347AF8 /* AppDelegate.m */,
+				EF023EE71B81EAF600347AF8 /* RootViewController.h */,
+				EF023EE81B81EAF600347AF8 /* RootViewController.m */,
+				EF023EE91B81EAF600347AF8 /* RootViewController.xib */,
 				EF023ECE1B81D80900347AF8 /* Images.xcassets */,
 				EF023ED01B81D80900347AF8 /* LaunchScreen.xib */,
 				EF023ECB1B81D80900347AF8 /* gitDemo.xcdatamodeld */,
@@ -196,6 +204,7 @@
 			files = (
 				EF023ED21B81D80900347AF8 /* LaunchScreen.xib in Resources */,
 				EF023ECF1B81D80900347AF8 /* Images.xcassets in Resources */,
+				EF023EEB1B81EAF600347AF8 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +224,7 @@
 			files = (
 				EF023ECD1B81D80900347AF8 /* gitDemo.xcdatamodeld in Sources */,
 				EF023ECA1B81D80900347AF8 /* AppDelegate.m in Sources */,
+				EF023EEA1B81EAF600347AF8 /* RootViewController.m in Sources */,
 				EF023EC71B81D80900347AF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +410,7 @@
 				EF023EE31B81D80900347AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EF023EE41B81D80900347AF8 /* Build configuration list for PBXNativeTarget "gitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +419,7 @@
 				EF023EE61B81D80900347AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
